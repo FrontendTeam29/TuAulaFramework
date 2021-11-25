@@ -4,7 +4,7 @@
   "description": "Tu Aula pero hecho en con el framework CSS tailwind",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.1",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.14"
   }
 }
