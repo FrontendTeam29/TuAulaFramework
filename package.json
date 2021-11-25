@@ -1,0 +1,27 @@
+{
+  "name": "tuaulaframework",
+  "version": "1.0.0",
+  "description": "Tu Aula pero hecho en con el framework CSS tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrontendTeam29/TuAulaFramework.git"
+  },
+  "keywords": [
+    "TailwindCSS"
+  ],
+  "author": "Alejandro Perdomo y Jorge Duque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrontendTeam29/TuAulaFramework/issues"
+  },
+  "homepage": "https://github.com/FrontendTeam29/TuAulaFramework#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.1",
+    "tailwindcss": "^2.2.19"
+  }
+}
