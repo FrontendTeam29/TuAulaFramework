@@ -16,36 +16,35 @@
 </head>
 <body>
     <div class="container mx-auto">
-        <div class="grid grid-cols-3 gap-5 justify-center">
-            <div class="text-sm md:text-xl font-semibold text-primario text-center">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5 justify-center text-xl md:text-xl font-semibold text-primario text-center">
+            <div>
                 <p>Nombre en la Plataforma</p>
             </div>
 
-            <div class="text-sm md:text-xl font-semibold text-primario text-center">
-                <p>Funciones de la Plataforma</p>
+            <div>
+                <p>Equivalencia en la Institución</p>
             </div>
 
-            <div class="w-1/2">
+            <div >
                 
+            </div>
+
+            <div class="hidden md:block">
+                <p>Funciones de la Plataforma</p>
             </div>
         </div> <!-- contenedor header textos-->
 
         <hr class="border-primario border-2 mb-5">
 
-        <div class="grid grid-cols-4 gap-5 justify-center mb-5">
-            <div class="text-base md:text-lg text-center  text-white bg-primario rounded-2xl flex items-center justify-center">
+        <div class="p-5 md:p-0 grid grid-cols-6 md:grid-cols-4 gap-5 justify-center mb-5">
+            <div class="text-base md:text-lg text-center text-white bg-primario rounded-2xl flex items-center justify-center col-start-1 col-end-4 md:col-start-1 md:col-end-2 ">
                 <p>Super Administrador</p>
             </div>
 
-            <div class="text-base md:text-lg text-center ">
-                <p>Parametrizacion y asignacion de roles</p>
-            </div>
+            <input type="text"  class="text-base md:text-lg text-center  bg-terciario rounded-2xl focus:outline-none flex items-center justify-center col-start-4 col-end-7 md:col-start-2 md:col-end-3">
+            </input>
 
-            <div class="text-base md:text-lg text-center  bg-terciario rounded-2xl flex items-center justify-center">
-                <p>Super Administrador</p>
-            </div>
-
-            <div class="flex items-center justify-center">
+            <div class="flex items-center justify-center col-start-1 col-end-3 md:col-start-3 md:col-end-4">
                 
                 <!-- Toggle B -->
                 <div class="flex items-center justify-center w-full ">
@@ -65,7 +64,13 @@
                 
                 </div>
             </div>
+
+            <div class="text-base md:text-lg text-center col-start-3 col-end-7 md:col-start-4 md:col-end-5">
+                <p>Parametrizacion y asignacion de roles</p>
+            </div>
         </div>
+
+        <hr class="border-gray-200 border-2 mx-5">
         
     </div>
 </body>
