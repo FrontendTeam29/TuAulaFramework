@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CDN Fuente Roboto-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+     <!-- CDN Font Awesome-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--TAILWIND-->
+    <link rel="stylesheet" href="../../../css/app.css">
+    <title>Grupos</title>
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="p-2 grid grid-cols-2 md:grid-cols-3 gap-5 justify-center text-xl md:text-xl font-semibold text-primario text-center">
+            <div>
+                <p>Opciones de Plaforma</p>
+            </div>
+
+            <div>
+                <p>Equivalencia en la Institución</p>
+            </div>
+
+            <div class="hidden">
+                
+            </div>
+        </div> <!-- contenedor header textos-->
+
+        <hr class="border-primario border-2 mb-2 md:mb-5 mx-5 md:mx-0">
+
+        <div class="p-5 md:p-0 grid grid-cols-5 md:grid-cols-3 gap-5 justify-center mb-0 md:mb-5">
+            <div class="text-base md:text-lg text-center text-white bg-primario rounded-2xl flex items-center justify-center col-start-1 col-end-3 md:col-start-1 md:col-end-2 ">
+                <p>Grados</p>
+            </div>
+
+            <input type="text"  class="text-base md:text-lg text-center  bg-terciario rounded-2xl focus:outline-none flex items-center justify-center col-start-3 col-end-5 md:col-start-2 md:col-end-3">
+            </input>
+
+            <div class="flex items-center justify-center col-start-5 col-end-7 md:col-start-3 md:col-end-4">
+                
+                <!-- Toggle B -->
+                
+            </div>
+        </div>
+
+        <hr class="border-gray-200 border-1 md:mb-5 mx-3">
+
+        <div class="p-5 md:p-0 grid grid-cols-5 md:grid-cols-3 gap-5 justify-center mb-5">
+            <div class="text-base md:text-lg text-center text-white bg-primario rounded-2xl flex items-center justify-center col-start-1 col-end-3 md:col-start-1 md:col-end-2 ">
+                <p>001</p>
+            </div>
+
+            <input type="text"  class="text-base md:text-lg text-center  bg-terciario rounded-2xl focus:outline-none flex items-center justify-center col-start-3 col-end-5 md:col-start-2 md:col-end-3">
+            </input>
+
+            <div class="flex items-center justify-center col-start-5 col-end-7 md:col-start-3 md:col-end-4">
+                
+                <!-- Toggle B -->
+                <div class="flex items-center justify-center w-full ">
+                
+                    <label for="toggleB" class="flex items-center cursor-pointer">
+                    <!-- toggle -->
+                    <div class="flex items-center justify-center w-full ">
+                
+                        <label for="toggleB" class="flex items-center cursor-pointer">
+                        <!-- toggle -->
+                        <div class="relative">
+                            <!-- input -->
+                            <input type="checkbox" id="toggleB" class="sr-only">
+                            <!-- line -->
+                            <div class="block bg-primario w-14 h-8 rounded-full"></div>
+                            <!-- dot -->
+                            <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+                        </div>
+                        <!-- label -->
+                        </label>
+                    
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
