@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CDN Fuente Roboto-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+     <!-- CDN Font Awesome-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--TAILWIND-->
+    <link rel="stylesheet" href="../../../css/app.css">
+    <title>manageUsers</title>
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="p-2  justify-center text-xl md:text-xl font-semibold text-primary text-center">        
+                <p>Administrar Usuarios</p>         
+        </div> <!-- contenedor header textos-->
+
+        <hr class="border-primary border-2 mb-2 md:mb-5 mx-5 md:mx-0">
+
+        <div class="flex justify-center flex-col md:flex-row w-11/12 mx-auto md:w-full gap-10 mt-5">
+
+            <select class="bg-primary text-white text-center md:text-left px-5 py-1 outline-none">
+                <option>Seleccionar Rol</option>
+            </select>
+
+            <select class="bg-primary text-white text-center md:text-left px-5 py-1 outline-none text-left">
+                <option>Seleccionar Estado</option>
+            </select>
+        </div>
+
+
+        <div class="grid grid-cols-3 justify-center items-center pt-20 md:grid-cols-4">
+
+            <div class="flex justify-center items-center flex-col cursor-pointer mb-10">
+                <img class="border-2 border-solid border-primary rounded-3xl w-30 max-w-full md:w-40" src="http://placehold.it/150x150" alt="Foto de perfil">
+                <p class="text-2xl text-center font-light py-5">Pedro <span>Rodriguez</span></p>
+            </div>
+
+            <div class="flex justify-center items-center flex-col cursor-pointer mb-10">
+                <img class="border-2 border-solid border-primary rounded-3xl w-30 max-w-full md:w-40" src="http://placehold.it/150x150" alt="Foto de perfil">
+                <p class="text-2xl text-center font-light py-5">Pedro <span>Rodriguez</span></p>
+            </div>
+
+            <div class="flex justify-center items-center flex-col cursor-pointer mb-10">
+                <img class="border-2 border-solid border-primary rounded-3xl w-30 max-w-full md:w-40" src="http://placehold.it/150x150" alt="Foto de perfil">
+                <p class="text-2xl text-center font-light py-5">Pedro <span>Rodriguez</span></p>
+            </div>
+
+            <div class="flex justify-center items-center flex-col cursor-pointer mb-10">
+                <img class="border-2 border-solid border-primary rounded-3xl w-30 max-w-full md:w-40" src="http://placehold.it/150x150" alt="Foto de perfil">
+                <p class="text-2xl text-center font-light py-5">Pedro <span>Rodriguez</span></p>
+            </div>
+
+            <div class="flex justify-center items-center flex-col cursor-pointer mb-10">
+                <img class="border-2 border-solid border-primary rounded-3xl w-30 max-w-full md:w-40" src="http://placehold.it/150x150" alt="Foto de perfil">
+                <p class="text-2xl text-center font-light py-5">Pedro <span>Rodriguez</span></p>
+            </div>
+
+            <div class="flex justify-center items-center flex-col cursor-pointer mb-10">
+                <img class="border-2 border-solid border-primary rounded-3xl w-30 max-w-full md:w-40" src="http://placehold.it/150x150" alt="Foto de perfil">
+                <p class="text-2xl text-center font-light py-5">Pedro <span>Rodriguez</span></p>
+            </div>
+
+            <div class="flex justify-center items-center flex-col cursor-pointer mb-10">
+                <img class="border-2 border-solid border-primary rounded-3xl w-30 max-w-full md:w-40" src="http://placehold.it/150x150" alt="Foto de perfil">
+                <p class="text-2xl text-center font-light py-5">Pedro <span>Rodriguez</span></p>
+            </div>
+
+            <div class="flex justify-center items-center flex-col cursor-pointer mb-10">
+                <img class="border-2 border-solid border-primary rounded-3xl w-30 max-w-full md:w-40" src="http://placehold.it/150x150" alt="Foto de perfil">
+                <p class="text-2xl text-center font-light py-5">Pedro <span>Rodriguez</span></p>
+            </div>
+        </div>
+
+        
+        <!-- Adminus flex-->
+        <div class="grid grid-cols-3 grid-rows-2 justify-center items-center">
+            <div class="flex col-start-2 col-end-3 justify-center items-center pb-5 md:pb-0">
+                <a class="bg-primary text-white rounded-full text-2xl font-semibold p-4 h-10 w-10 flex items-center justify-center mr-0.5" href="#">1</a>
+                <a class="bg-gray-400 text-black rounded-full text-2xl font-semibold p-4 h-10 w-10 flex items-center justify-center mr-0.5" href="#">2</a>
+                <a class="bg-gray-400 text-black rounded-full text-2xl font-semibold p-4 h-10 w-10 flex items-center justify-center mr-0.5" href="#">3</a>
+                <a class="bg-gray-400 text-black rounded-full text-2xl font-semibold p-4 h-10 w-10 flex items-center justify-center mr-0.5" href="#">4</a>
+                
+            </div>
+
+            <div class="flex  col-start-2 col-end-3 row-start-2 row-end-3 md:col-start-3 md:col-end-4 md:row-start-1 md:row-end-2 justify-center items-center">
+                <button class="bg-primary text-white rounded-2xl py-2 px-1" >Nuevas solicitudes</button>  
+            </div>
+
+            
+
+        </div>
+        <div class="flex items-center justify-center ">
+            <input type="submit" class="bg-primary text-white xl:text-2xl px-7 py-2 rounded-3xl flex mt-5 mx-auto hover:bg-secundario cursor-pointer" value="Actualizar">
+        </div>
+        
+
+
+
+
+    </div>
+</body>
+</html>
