@@ -15,30 +15,13 @@
     <title>manageUsers3</title>
 </head>
 <body>
-    <div class="container mx-auto">
+    <div class="container mx-auto ">
         <div class="p-2  justify-center text-xl md:text-xl font-semibold text-primary text-center">        
                 <p>Información</p>         
         </div> <!-- contenedor header textos-->
 
         <hr class="border-primary border-2 mb-1 md:mb-1 mx-5 md:mx-0">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-           
-
+      
         <div class="grid grid-cols-3 grid-rows-4 justify-center items-center">
             <div class="flex col-start-1 col-end-2 row-start-1 row-end-4 justify-center items-center">
                 <img class="item__photo" src="http://placehold.it/100x100" alt="Foto de perfil">
@@ -75,53 +58,58 @@
             </div>
         </div>
 
-        <div class="perfil__checkbox">
-            <p class="text-center">Seleccionar Roles:</p> 
+        <hr class="border-gray-100 border-2 mb-1 md:mb-1 mx-5 md:mx-0">
+
+        <div class="flex flex-col mx-auto my-0">
+            <p class="p-2  justify-center text-xl font-semibold text-primary text-center">Seleccionar Roles:</p> 
             
-            <div class="checkbox__roles">
-                <div class="rol__check">
-                    <label for="cbprofile" class="labprofile">Administrador</label><input type="checkbox" id="cbprofile"> 
+            <div class="grid grid-cols-2 gap-x-6 gap-y-3  mx-auto my-0	">
+                <div class="flex w-36 items-center  ">
+                    <label for="cbprofile" class="w-full  text-gray-500 font-semibold ">Administrador</label><input type="checkbox" id="cbprofile"> 
                 </div>
 
-                <div class="rol__check">
-                    <label for="cbprofile" class="labprofile">Rector</label><input type="checkbox" id="cbprofile">  
+                <div class="flex w-36  items-center   ">
+                    <label for="cbprofile" class="w-full  text-gray-500 font-semibold ">Rector</label><input type="checkbox" id="cbprofile"> 
                 </div>
 
-                <div class="rol__check">
-                    <label for="cbprofile" class="labprofile">Secretario</label><input type="checkbox" id="cbprofile">  
+                <div class="flex w-36  items-center   ">
+                    <label for="cbprofile" class="w-full  text-gray-500 font-semibold ">Secretario</label><input type="checkbox" id="cbprofile"> 
                 </div>
 
-                <div class="rol__check">
-                    <label for="cbprofile" class="labprofile">Coordinador</label> <input type="checkbox" id="cbprofile">  
+                <div class="flex w-36  items-center   ">
+                    <label for="cbprofile" class="w-full  text-gray-500 font-semibold ">Coordinador</label><input type="checkbox" id="cbprofile"> 
                 </div>
 
-                <div class="rol__check">
-                    <label for="cbprofile" class="labprofile">Docente</label><input type="checkbox" id="cbprofile"> 
+                <div class="flex w-36  items-center   ">
+                    <label for="cbprofile" class="w-full  text-gray-500 font-semibold ">Docente</label><input type="checkbox" id="cbprofile"> 
                 </div>
 
-                <div class="rol__check">
-                    <label for="cbprofile" class="labprofile">Padre de Familia</label><input type="checkbox" id="cbprofile"> 
+                <div class="flex w-36  items-center ">
+                    <label for="cbprofile" class="w-full text-gray-500 font-semibold">Padre de Familia</label><input type="checkbox" id="cbprofile"> 
                 </div>
 
-                <div class="rol__check">
-                    <label for="cbprofile" class="labprofile">Estudiante</label><input type="checkbox" id="cbprofile">  
+                <div class="flex w-36  items-center   ">
+                    <label for="cbprofile" class="w-full text-gray-500 font-semibold">Estudiante</label><input type="checkbox" id="cbprofile"> 
                 </div>
 
-                <div class="rol__check">
-                    <label for="cbprofile" class="labprofile">Sin Especificar</label><input type="checkbox" id="cbprofile"> 
-                </div>     
+                <div class="flex w-36  items-center   ">
+                    <label for="cbprofile" class="w-full  text-gray-500 font-semibold mr-4">Sin Especificar</label><input type="checkbox" id="cbprofile"> 
+                </div>   
                     
             </div>
             
         </div>
         
-
-
-        <div class="flexbox flexbox__radios">
-            <p>Seleccionar Estado:</p>
-            <input class="btn__radios" name="periodo" type="radio"><p class="radios__txt">Activo</p>
-            <input class="btn__radios" name="periodo" type="radio"><p class="radios__txt">Inactivo</p>
-            <input class="btn__radios" name="periodo" type="radio"><p class="radios__txt">Pendiente</p>
+        <div class="flex flex-row justify-center mt-10 mb-10 gap-2">
+            <p class="p-2  justify-center text-xl font-semibold text-primary text-center">Seleccionar Estado:</p> 
+            
+        </div>
+        
+        <div class="flex flex-col justify-center items-center mt-10 mb-10 gap-5">
+            
+            <input class="" name="periodo" type="radio"><p class="text-gray-500 font-semibold">Activo</p>
+            <input class="" name="periodo" type="radio"><p class="text-gray-500 font-semibold">Inactivo</p>
+            <input class="" name="periodo" type="radio"><p class="text-gray-500 font-semibold">Pendiente</p>
         </div>
         
 
