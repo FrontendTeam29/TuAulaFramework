@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CDN Fuente Roboto-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+     <!-- CDN Font Awesome-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--TAILWIND-->
+    <link rel="stylesheet" href="../../../css/app.css">
+    <title>Mathematics2</title>
+</head>
+<body>
+    <div class="container-none md:mx-auto p-5 my-5 md:m-5 md:rounded-xl bg-white"><!--Contenedor-->
+        <p class="text-primary font-semibold text-center mb-3 md:text-lg">Matemática I</p><!--Titulo-->
+        <hr class="border-primary w-11/12 border-2 mb-2 md:mb-5 mx-5 md:mx-auto"><!--Linea-->
+        <div class="flex justify-center items-center m-8">
+            <label class="font-semibold mr-3" for="">Titulo: </label>
+            <input class="flex-1 bg-tertiary text-center focus:outline-none py-1 rounded-xl" placeholder="Suma y Resta">
+            </input>
+        </div><!--Select-->
+
+        <div class="flex justify-start items-center px-10 mb-5">
+            <div class="mr-5">
+                <!-- Toggle B -->
+                <div class="flex items-center justify-center w-full ">
+                
+                    <label for="toggleB" class="flex items-center cursor-pointer">
+                    <!-- toggle -->
+                    <div class="relative">
+                        <!-- input -->
+                        <input type="checkbox" id="toggleB" class="sr-only">
+                        <!-- line -->
+                        <div class="block bg-primary w-14 h-8 rounded-full"></div>
+                        <!-- dot -->
+                        <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+                    </div>
+                    <!-- label -->
+                    </label>
+                
+                </div>
+            </div>
+
+            <div>
+                <p>Habilitar cartelera de avisos</p>
+            </div>
+        </div>
+
+        <div class="flex justify-start items-center px-10 mb-5">
+            <div class="mr-5">
+                <!-- Toggle B -->
+                <div class="flex items-center justify-center w-full ">
+                
+                    <label for="toggleB" class="flex items-center cursor-pointer">
+                    <!-- toggle -->
+                    <div class="relative">
+                        <!-- input -->
+                        <input type="checkbox" id="toggleB" class="sr-only">
+                        <!-- line -->
+                        <div class="block bg-primary w-14 h-8 rounded-full"></div>
+                        <!-- dot -->
+                        <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+                    </div>
+                    <!-- label -->
+                    </label>
+                
+                </div>
+            </div>
+
+            <div>
+                <p>Habilitar calendario</p>
+            </div>
+        </div>
+    </div> <!--Primer contenedor-->
+
+    <div class="container-none my-5 md:m-5 md:rounded-xl bg-white p-5">
+        <div class="flex justify-center mb-5">
+            <input type="submit" class="bg-primary text-white xl:text-2xl font-semibold px-7 py-2 rounded-3xl flex mt-5 mx-auto hover:bg-secundario cursor-pointer" value="Agregar otro tema">
+        </div>
+
+        <div class="flex justify-center">
+            <input type="submit" class="bg-primary text-white xl:text-2xl font-semibold px-7 py-2 rounded-3xl flex mt-5 mx-auto hover:bg-secundario cursor-pointer" value="Guardar">
+        </div>
+    </div>
+</body>
+</html>
