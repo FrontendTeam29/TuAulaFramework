@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CDN Fuente Roboto-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+     <!-- CDN Font Awesome-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--TAILWIND-->
+    <link rel="stylesheet" href="../../../css/app.css">
+    <title>manageUsers3</title>
+</head>
+<body>
+    <div class="container mx-auto ">
+        <div class="p-2  justify-center text-xl md:text-xl font-semibold text-primary text-center">        
+                <p>Nombre de la Actividad</p>         
+        </div> <!-- contenedor header textos-->
+
+        <hr class="border-primary border-2 mb-1 md:mb-1 mx-5 md:mx-0">
+
+        <div class="flex justify-start items-center px-10 mb-5 mt-10">
+            <div class="mr-5">
+                <!-- Toggle B -->
+                <div class="flex items-center justify-center w-full ">
+                
+                    <label for="toggleA" class="flex items-center cursor-pointer">
+                    <!-- toggle -->
+                    <div class="flex items-center justify-center w-full ">
+                
+                        <label for="toggleA" class="flex items-center cursor-pointer">
+                        <!-- toggle -->
+                        <div class="relative">
+                            <!-- input -->
+                            <input type="checkbox" id="toggleA" class="sr-only">
+                            <!-- line -->
+                            <div class="block bg-primary w-14 h-8 rounded-full"></div>
+                            <!-- dot -->
+                            <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+                        </div>
+                        <!-- label -->
+                        </label>
+                    
+                    </div>
+                
+                </div>
+            </div>
+
+            <div>
+                <p>Actividad calificable</p>
+            </div>
+        </div>
+
+        <div class="flex justify-start items-center px-10 mb-5">
+            <div class="mr-5">
+                <!-- Toggle B -->
+                <div class="flex items-center justify-center w-full ">
+                
+                    <label for="toggleB" class="flex items-center cursor-pointer">
+                    <!-- toggle -->
+                    <div class="flex items-center justify-center w-full ">
+                
+                        <label for="toggleB" class="flex items-center cursor-pointer">
+                        <!-- toggle -->
+                        <div class="relative">
+                            <!-- input -->
+                            <input type="checkbox" id="toggleB" class="sr-only">
+                            <!-- line -->
+                            <div class="block bg-primary w-14 h-8 rounded-full"></div>
+                            <!-- dot -->
+                            <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+                        </div>
+                        <!-- label -->
+                        </label>
+                    
+                    </div>
+                
+                </div>
+            </div>
+
+            <div>
+                <p>Habilitar subir evidencia</p>
+            </div>
+        </div>
+
+        <div>
+            <span class="font-bold flex justify-start items-center mb-2 px-10">Habilitar evidencias: </span>
+        </div>
+
+
+        <div class="flex flex-row justify-center items-center mt-5 mb-5 gap-5">
+            
+            <input class="" name="periodo" type="radio"><p class="text-gray-500 font-semibold">Estudiante</p>
+            <input class="" name="periodo" type="radio"><p class="text-gray-500 font-semibold">Docente</p>
+            <input class="" name="periodo" type="radio"><p class="text-gray-500 font-semibold">Padres de Familia</p>
+        </div>
+
+        <div class="flex flex-col my-0">
+            <div class=" flex flex-col  pt-3 items-center md:grid md:grid-cols-2 mx-auto   md:mx-auto md:gap-6 ">
+                <div class="flex w-80 justify-between items-center mb-5 ">
+                    <p class="font-bold">Fecha de Inicio:</p>
+                    <input type="date" class="bg-tertiary p-1 rounded-2xl w-44">
+                </div>
+    
+                <div class="flex w-80 justify-between items-center mb-5">
+                    <p class="font-bold">Hora de inicio:</p>
+                    <input type="time" class="bg-tertiary p-1 rounded-2xl w-44">
+                </div>
+    
+                <div class="flex w-80 justify-between items-center mb-5">
+                    <p class="font-bold">Fecha de Fin:</p>
+                    <input type="date" class="bg-tertiary p-1 rounded-2xl w-44">
+                </div>
+    
+                <div class="flex w-80 justify-between items-center mb-5">
+                    <p class="font-bold">Hora de Fin:</p>
+                    <input type="time" class="bg-tertiary p-1 rounded-2xl w-44">
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        
+        <div class="grid grid-cols-3 grid-rows-2 justify-center items-center mt-10">
+
+            <div class="flex col-start-2 col-end-3  md:col-start-2 md:col-end-3  justify-center items-center mb-5">
+                <a class="bg-primary text-white font-semibold rounded-2xl py-2 px-3 cursor-pointer text-center px-10" href="#">Crear</a>  
+            </div>
+            
+
+            <div class="flex md:col-start-3 md:col-end-4  col-start-2 col-end-3  md:row-start-1  md:row-end-2 justify-center items-center mb-5">
+                <a class="bg-primary hover:bg-secondary text-white rounded-2xl py-2 px-5 md:px-10" href="manageuser2.html"><i class="fas fa-undo pr-1"></i>Regresar</a>  
+            </div>    
+        </div>
+      
+
+    </div>
+</body>
+</html>
