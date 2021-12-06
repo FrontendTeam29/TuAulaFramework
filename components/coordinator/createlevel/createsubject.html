@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CDN Fuente Roboto-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+     <!-- CDN Font Awesome-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--TAILWIND-->
+    <link rel="stylesheet" href="../../../css/app.css">
+    <title>Crear Asignatura</title>
+</head>
+<body>
+    <div class="container-none md:mx-auto mt-5 md:m-5 md:rounded-xl bg-white"><!--Contenedor-->
+        <p class="text-primary font-semibold text-center mb-3 md:text-lg">Crear Asignatura</p><!--Titulo-->
+        <hr class="border-primary w-11/12 border-2 mb-2 md:mb-5 mx-5 md:mx-auto"><!--Linea-->
+        
+        <div class="flex flex-col md:flex-row m-8">
+            <label class="font-semibold mb-2 md:mr-3" for="">Seleccionar Nivel: </label>
+            <select class="bg-primary text-white text-center focus:outline-none py-1 w-full md:w-3/6" name="" id="">
+                <option class="bg-white text-black" value="">Seleccionar Nivel</option>
+            </select>
+        </div><!--Select-->
+
+        <div class="flex flex-col md:flex-row m-8">
+            <label class="font-semibold mb-2 md:mr-3" for="">Seleccionar Proyecto Transversal: </label>
+            <select class="bg-primary text-white text-center focus:outline-none py-1 w-full md:w-3/6" name="" id="">
+                <option class="bg-white text-black" value="">Seleccionar Proyecto</option>
+            </select>
+        </div><!--Select-->
+
+        <div class="flex flex-col md:flex-row m-8">
+            <label class="font-semibold mb-2 md:mr-3" for="">Seleccionar Dimension: </label>
+            <select class="bg-primary text-white text-center focus:outline-none py-1 w-full md:w-3/6" name="" id="">
+                <option class="bg-white text-black" value="">Seleccionar Dimension</option>
+            </select>
+        </div><!--Select-->
+
+        <div class="flex flex-col md:flex-row m-8">
+            <label class="font-semibold mb-2 md:mr-3" for="">Nombre de la Asignatura: </label>
+            <input class="flex-1 bg-tertiary text-center rounded-2xl focus:outline-none py-1 w-full md:w-3/6" >
+        </div><!--Input-->
+
+        <div class="flex flex-col md:flex-row m-8">
+            <label class="font-semibold mb-2 md:mr-3" for="">Nombre Corto: </label>
+            <input class="flex-1 bg-tertiary text-center rounded-2xl focus:outline-none py-1 w-full md:w-3/6" >
+        </div><!--Input-->
+
+        <div class="flex flex-col m-8">
+            <label class="font-semibold mb-2 md:mr-3" for="">Descripcion de la Asignatura: </label>
+            <textarea class="flex-1 bg-tertiary text-left rounded-2xl focus:outline-none py-1 w-full p-5 h-72 resize-none">
+            </textarea>
+        </div><!--Input-->
+
+        <div class="flex flex-col md:flex-row m-8">
+            <label class="font-semibold mb-2 md:mr-3" for="">Nombre Docente: </label>
+            <select class="bg-primary text-white text-center focus:outline-none py-1 w-full md:w-3/6" name="" id="">
+                <option class="bg-white text-black" value="">Nombre Docente</option>
+            </select>
+        </div><!--Select-->
+
+        <div>
+            <div class="flex justify-start items-center px-10 mb-2 mt-5">
+                <div class="mr-5">
+                    <!-- Toggle B -->
+                    <div class="flex items-center justify-center w-full ">
+                    
+                        <label for="toggleA" class="flex items-center cursor-pointer">
+                        <!-- toggle -->
+                        <div class="flex items-center justify-center w-full ">
+                    
+                            <label for="toggleA" class="flex items-center cursor-pointer">
+                            <!-- toggle -->
+                            <div class="relative">
+                                <!-- input -->
+                                <input type="checkbox" id="toggleA" class="sr-only">
+                                <!-- line -->
+                                <div class="block bg-primary w-14 h-8 rounded-full"></div>
+                                <!-- dot -->
+                                <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+                            </div>
+                            <!-- label -->
+                            </label>
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+    
+                <div>
+                    <p>Visible</p>
+                </div>
+            </div>
+        </div>  
+        
+        <div>
+            <div class="flex justify-start items-center px-10 mb-2 mt-5">
+                <div class="mr-5">
+                    <!-- Toggle B -->
+                    <div class="flex items-center justify-center w-full ">
+                    
+                        <label for="toggleA" class="flex items-center cursor-pointer">
+                        <!-- toggle -->
+                        <div class="flex items-center justify-center w-full ">
+                    
+                            <label for="toggleA" class="flex items-center cursor-pointer">
+                            <!-- toggle -->
+                            <div class="relative">
+                                <!-- input -->
+                                <input type="checkbox" id="toggleA" class="sr-only">
+                                <!-- line -->
+                                <div class="block bg-primary w-14 h-8 rounded-full"></div>
+                                <!-- dot -->
+                                <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+                            </div>
+                            <!-- label -->
+                            </label>
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+    
+                <div>
+                    <p>Mostrar calificaciones</p>
+                </div>
+            </div>
+        </div> 
+
+        <div>
+            <div class="flex justify-start items-center px-10 mb-2 mt-5">
+                <div class="mr-5">
+                    <!-- Toggle B -->
+                    <div class="flex items-center justify-center w-full ">
+                    
+                        <label for="toggleA" class="flex items-center cursor-pointer">
+                        <!-- toggle -->
+                        <div class="flex items-center justify-center w-full ">
+                    
+                            <label for="toggleA" class="flex items-center cursor-pointer">
+                            <!-- toggle -->
+                            <div class="relative">
+                                <!-- input -->
+                                <input type="checkbox" id="toggleA" class="sr-only">
+                                <!-- line -->
+                                <div class="block bg-primary w-14 h-8 rounded-full"></div>
+                                <!-- dot -->
+                                <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+                            </div>
+                            <!-- label -->
+                            </label>
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+    
+                <div>
+                    <p>Reporte de avance de actividades</p>
+                </div>
+            </div>
+        </div> 
+
+        <input type="submit" class="bg-primary hover:bg-secondary text-white xl:text-2xl px-24 py-2 mb-5 rounded-3xl flex mt-5 mx-auto hover:bg-secundario cursor-pointer" value="Guardar">
+    </div>
+</body>
+</html>
