@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CDN Fuente Roboto-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+     <!-- CDN Font Awesome-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--TAILWIND-->
+    <link rel="stylesheet" href="../../../css/app.css">
+    <title>Crear Nivel</title>
+</head>
+<body>
+    <div class="container-none md:mx-auto mt-5 md:m-5 md:rounded-xl bg-white"><!--Contenedor-->
+        <p class="text-primary font-semibold text-center mb-3 md:text-lg">Matemática I</p><!--Titulo-->
+        <hr class="border-primary w-11/12 border-2 mb-2 md:mb-5 mx-5 md:mx-auto"><!--Linea-->
+        <div class="flex justify-center flex-col items-center m-8">
+            <label class="font-semibold mb-2" for="">Seleccionar vigencia: </label>
+            <select class="flex-1 bg-primary text-white text-center focus:outline-none py-1 w-full" name="" id="">
+                <option value="">Más reciente</option>
+            </select>
+        </div><!--Select-->
+
+        <div class="flex justify-center flex-col items-center m-8">
+            <label class="font-semibold mb-2" for="">Seleccionar nivel: </label>
+            <select class="flex-1 bg-primary text-white text-center focus:outline-none py-1 w-full" name="" id="">
+                <option value="">Más reciente</option>
+            </select>
+        </div><!--Select-->
+
+        <div class="flex justify-center flex-col items-center m-8">
+            <label class="font-semibold mb-2" for="">Seleccionar grupo: </label>
+            <select class="flex-1 bg-primary text-white text-center focus:outline-none py-1 w-full" name="" id="">
+                <option value="">Más reciente</option>
+            </select>
+        </div><!--Select-->
+
+        <div class="flex justify-center flex-col items-center m-8">
+            <label class="font-semibold mb-2" for="">Seleccionar docente / coordinador de grupo: </label>
+            <select class="flex-1 bg-primary text-white text-center focus:outline-none py-1 w-full" name="" id="">
+                <option value="">Más reciente</option>
+            </select>
+        </div><!--Select-->
+
+        <input type="submit" class="bg-primary hover:bg-secondary text-white xl:text-2xl px-7 py-2 rounded-3xl flex mt-5 mx-auto hover:bg-secundario cursor-pointer" value="Guardar">
+    </div>
+</body>
+</html>
