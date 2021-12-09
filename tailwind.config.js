@@ -11,6 +11,9 @@ module.exports = {
       gridTemplateColumns: {
         // Simple 16 column grid
        'rate': '4fr 3fr 1fr 1fr',
+       'rolesgrid': '3fr 3fr 1fr 3fr',
+       'notasgrid1': '5fr 1fr 1fr 1fr 1fr 1fr',
+       'notasgrid2': '5fr 3fr 2fr',
 
         // Complex site-specific column configuration
        
