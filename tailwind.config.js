@@ -21,7 +21,7 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    padding: ['responsive', 'hover', 'focus', 'group-hover', 'active'],
   },
   plugins: [
 
